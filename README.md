@@ -3,6 +3,35 @@ jphacks
 
 jphacksのためのリポジトリ
 
+## ストーキングアプリ（仮）
+
+### 概要
+* 特定の人のTwitterやFacebook、ブログ、Instagramの更新情報を一括で一つのタイムラインとして表示するアプリ
+* 人ひとりがタイムライン一つ
+* 公開タイムラインは、アイドルや有名人のアカウントをひとつにまとめて、そのアイドルの最新情報を
+
+### 細かい仕様
+* Swift、CakePHP、MySQLを使う
+* ユーザーはFacebookまたはTwitterでログイン
+* 画面は最低3つ（ログイン画面、人リスト画面、タイムライン）
+* Pocketのデザインを参考にする
+* CakePHPでAPIを
+
+### 対応させるAPI（優先順位順）
+0. Twitter（複数アカウント対応）
+0. Facebook
+0. ブログ
+0. Instagram
+0. LinkedIn
+0. Tumblr
+0. はてブ
+0. GitHub
+0. Qiita
+0. Google plus
+
+### 自作APIの形式
+
+
 ## めんつ
 
 ### こはだ
@@ -35,7 +64,7 @@ jphacksのためのリポジトリ
 ## 作るもの
 * 使用言語: Swift CakePHP
 
-## 作るもの案
+## 作るもの案（以前）
 
 いまはまだアイデア
 
